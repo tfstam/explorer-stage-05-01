@@ -51,4 +51,25 @@ p {
 
 form {
   margin-top: 4.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+input,
+button {
+  border: none;
+  padding: 1.6rem;
+}
+
+input {
+  background-color: #dce2e9;
+  width: 6rem;
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+button {
+  background-color: #7879f1;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 0.4rem 0.4rem 0;
 }
